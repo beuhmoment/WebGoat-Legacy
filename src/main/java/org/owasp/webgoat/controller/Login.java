@@ -25,7 +25,7 @@ public class Login {
 
         ModelAndView model = new ModelAndView();
         if (error != null) {
-            model.addObject("error", "Invalid username and password! edited for changes");
+            model.addObject("error", "Invalid username and password!");
         }
 
         if (logout != null) {
